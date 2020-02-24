@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-starter-theme-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace seguridad build",
+    "develop": "yarn workspace seguridad develop"
+  },
+  "workspaces": [
+    "gatsby-theme-minimal",
+    "seguridad"
+  ]
+}
